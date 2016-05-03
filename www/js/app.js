@@ -44,7 +44,7 @@ angular.module('starter', ['ionic'])
   $scope.makeUrl = function() {
     // construct url from indredients list
     // http://www.recipepuppy.com/api/?i=
-    var url = "http://food2fork.com/api/search?key=9cbbb5bcf1eba2cbb31869e1614179c7&q="  + 
+    var url = "http://food2fork.com/api/search?"  + 
         $scope.ingredients.join();
         console.log(url);
         $scope.url = url;
